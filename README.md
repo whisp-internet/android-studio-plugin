@@ -2,7 +2,7 @@
 
 _This Android Studio plugin brings rapid app development to all Android developers at stanwood._
 
-[JetBrains plugin page](https://plugins.jetbrains.com/plugin/11954-stanwood-android-templates)
+[JetBrains plugin page](https://plugins.jetbrains.com/plugin/13865-whisp-android-templates)
 
 ## Installation
 
