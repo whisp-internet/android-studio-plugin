@@ -1,11 +1,11 @@
 <idea-plugin>
-    <id>io.stanwood.android</id>
-    <name>stanwood Android templates</name>
-    <vendor email="andre.classen@stanwood.io" url="https://stanwood.io">stanwood Softwareentwicklungs GmbH</vendor>
+    <id>de.whisp.android</id>
+    <name>whisp Android templates</name>
+    <vendor email="andre@whisp.de" url="https://github.com/whisp-internet">whisp Internet GmbH</vendor>
     <category>Android</category>
 
     <description><![CDATA[
-    A bundle of templates for developing Android apps at stanwood.
+    A bundle of templates for developing Android apps at whisp.
     ]]></description>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
@@ -19,8 +19,8 @@
     <depends>org.jetbrains.android</depends>
 
     <actions>
-        <group id="io.stanwood.android.fileTemplates"
-               text="Stanwood"
+        <group id="de.whisp.android.fileTemplates"
+               text="Whisp"
                popup="true">
 
         </group>
@@ -28,7 +28,7 @@
 
     <application-components>
         <component>
-            <implementation-class>io.stanwood.android.StanwoodApplicationComponent</implementation-class>
+            <implementation-class>de.whisp.android.WhispApplicationComponent</implementation-class>
         </component>
     </application-components>
 
